@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lifebar Material
-  m_Shader: {fileID: -6465566751694194690, guid: 083de225d7e099b4ba9f61818f536687, type: 3}
+  m_Name: Flag Material
+  m_Shader: {fileID: -6465566751694194690, guid: 61ae5483618434b40bd84be1dc8d98a9, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,14 +23,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8d77d423b81430649a14adfff43e6f44, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Mask:
-        m_Texture: {fileID: 2800000, guid: fe122dac4ff5634409fe5a9945e3b1ce, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -45,14 +37,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _LifePercent: 0.6
-    - _MaxBar: 1
-    - _MinBar: 0.18
-    m_Colors:
-    - _HighHealthColor: {r: 0.12290908, g: 0.6, b: 0.11999995, a: 1}
-    - _LowHealthColor: {r: 0.6, g: 0.12073166, b: 0.12073166, a: 1}
+    - _Mask_Lerp: 0.2
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Scale_Noise: 1
+    - _Wave_Length: 9
+    - _Wind_Direction: 1
+    - _Wind_Power: 1
+    - _Wind_Scale: 0.3
+    - _Wind_Speed: 4
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &7487051562230747049
+--- !u!114 &377336228281491195
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
