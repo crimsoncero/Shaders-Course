@@ -42,10 +42,11 @@ Material:
     - _QueueOffset: 0
     - _Scale_Noise: 1
     - _Wave_Length: 9
+    - _Wave_Variance: 4
     - _Wind_Direction: 1
     - _Wind_Power: 1
     - _Wind_Scale: 0.3
-    - _Wind_Speed: 4
+    - _Wind_Speed: 6
     m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &377336228281491195
