@@ -1251,10 +1251,10 @@
         "m_Expanded": false,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -410.0000915527344,
-            "y": 404.0000305175781,
-            "width": 95.00003051757813,
-            "height": 77.00003051757813
+            "x": -429.0,
+            "y": 386.0,
+            "width": 95.0,
+            "height": 76.0
         }
     },
     "m_Slots": [
@@ -2189,7 +2189,7 @@
         "linear interpolate"
     ],
     "m_Precision": 0,
-    "m_PreviewExpanded": false,
+    "m_PreviewExpanded": true,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -2625,13 +2625,13 @@
     },
     "m_Name": "Vector 3",
     "m_DrawState": {
-        "m_Expanded": false,
+        "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -443.00006103515627,
-            "y": 481.00006103515627,
+            "x": -445.0,
+            "y": 535.0,
             "width": 128.0,
-            "height": 77.0
+            "height": 125.0
         }
     },
     "m_Slots": [
