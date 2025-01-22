@@ -11,7 +11,8 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 2c230e8ff507b544eaaab6311d92b1f9, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _NIGHTVISION
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -44,10 +45,14 @@ Material:
     - _Focus_Distance: 0.1
     - _Focus_Range: 0.1
     - _LensHorizontalPosition: 0.5
-    - _LensRadius: 0.5
-    - _LensVerticalPosition: 0.48
+    - _LensRadius: 0.504
+    - _LensVerticalPosition: 0.5
+    - _NIGHTVISION: 1
     - _Near_Range: 0.35
+    - _NightVisionAlpha: 39
     - _Outside_Blur_Power: 0.04
-    - _Outside_Noise_Power: 0.371
-    m_Colors: []
+    - _Outside_Dim: 0.3
+    - _Outside_Noise_Power: 1
+    m_Colors:
+    - _Night_Vision_Color: {r: 0, g: 0.5188679, b: 0.027746907, a: 0}
   m_BuildTextureStacks: []
