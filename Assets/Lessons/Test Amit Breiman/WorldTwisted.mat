@@ -52,8 +52,8 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Twist_Multiplier: 1.25
+    - _Twist_Multiplier: 6
     m_Colors:
     - _AxisToRotate: {r: 1, g: 0, b: 0, a: 0}
-    - _Offset: {r: 0, g: -15.5, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
